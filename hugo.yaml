@@ -1,3 +1,17 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://trick.art/
+title: trickart
+theme: PaperMod
+
+params:
+  profileMode:
+    enabled: true
+    imageUrl: "https://avatars.githubusercontent.com/u/4015060"
+    imageTitle: "trickart"
+    imageWidth: 120
+    imageHeight: 120
+  
+  socialIcons:
+    - name: "GitHub"
+      url: "https://github.com/trickart"
+    - name: "Twitter"
+      url: "https://twitter.com/trickart4121"
